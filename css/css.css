@@ -5,6 +5,15 @@ and open the template in the editor.
 */
 /* 
     Created on : 27 oct. 2021, 00:59:11
-    Author     : polos
+    Author     : Paul-Henri Solat
 */
 
+.shadowbox {
+  width: 15em;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 10px 12px;
+  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+  position: relative;
+  top: 40px; left: 1600px;
+}
