@@ -8,12 +8,23 @@ and open the template in the editor.
     Author     : Paul-Henri Solat
 */
 
+*{
+    background: #999999; /* #BFBFBF */
+}
+
 .shadowbox {
+  z-index: 3;
   width: 15em;
   border: 1px solid #333;
   box-shadow: 8px 8px 5px #444;
   padding: 10px 12px;
-  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+  /*background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);*/
   position: relative;
-  top: 40px; left: 1600px;
+}
+
+.imageInsert{
+    width : 1000px;
+    position: relative;
+    z-index: 2;
+    background-color: rgba(169, 169, 169, 0); /* fond image transparent entre 0 et 1 (4eme param) */
 }
