@@ -12,6 +12,7 @@ and open the template in the editor.
     background: #999999; /* #BFBFBF */
 }
 
+/*shadowbox*/
 .shadowbox {
   z-index: 3;
   width: 15em;
@@ -22,9 +23,10 @@ and open the template in the editor.
   position: relative;
 }
 
+/*CubeText*/
 .imageInsert{
-    width : 1000px;
-    position: relative;
+    width : 880px;
+    position: fixed;
     z-index: 2;
     background-color: rgba(169, 169, 169, 0); /* fond image transparent entre 0 et 1 (4eme param) */
 }
