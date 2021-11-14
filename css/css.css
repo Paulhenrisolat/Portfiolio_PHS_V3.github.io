@@ -46,7 +46,3 @@ and open the template in the editor.
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
-.bg-dark {
-    background-color: #343434!important;
-}
