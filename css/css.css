@@ -17,6 +17,15 @@ and open the template in the editor.
    overflow:auto;
 }
 
+/*text*/
+.textCube{
+    color: white;
+    font-weight: bold;
+    font-family: Trebuchet MS;
+    width: 15em;
+    border: 1px
+}
+
 /*shadowbox*/
 .shadowbox {
   z-index: 3;
@@ -41,8 +50,8 @@ and open the template in the editor.
     text-align: center;
     -webkit-animation: fadein 2s;
 }
-
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
