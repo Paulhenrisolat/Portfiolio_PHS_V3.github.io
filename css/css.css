@@ -42,7 +42,6 @@ and open the template in the editor.
 .imageInsert{
     width : 880px;
     position: absolute;
-    z-index: 2;
     background-color: rgba(169, 169, 169, 0); /* fond image transparent entre 0 et 1 (4eme param) */
 }
 
