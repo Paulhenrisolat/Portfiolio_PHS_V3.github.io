@@ -21,6 +21,23 @@ and open the template in the editor.
     color: black;
 }
 
+.centerContent{
+    padding-top: 129px;
+    text-align: center;
+}
+
+.conteneur{
+    border: 1px black solid; /*barre du conteneur largeur 1 solid pour quil apparaisse black couleur */
+    text-align: center; /*position text*/
+    background-color: #646464; /*couleur fond conteneur*/
+}
+
+.titre{
+    color: black; /*couleur police*/
+    font-family: sans-serif; /*famille police*/
+    font-size: 4em; /*taille police*/
+}
+
 .warningA{
     color: red;
     background: yellow;
