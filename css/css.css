@@ -21,6 +21,11 @@ and open the template in the editor.
     color: black;
 }
 
+.warningA{
+    color: red;
+    background: yellow;
+}
+
 /*text*/
 .textCube{
     color: white;
