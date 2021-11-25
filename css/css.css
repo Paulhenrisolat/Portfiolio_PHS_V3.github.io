@@ -17,6 +17,10 @@ and open the template in the editor.
    overflow:auto;
 }
 
+.textDark{
+    color: black;
+}
+
 /*text*/
 .textCube{
     color: white;
@@ -46,7 +50,7 @@ and open the template in the editor.
 }
 
 .centerA{
-    align-content: center;
+    text-align: center;
 }
 
 .inserText{
